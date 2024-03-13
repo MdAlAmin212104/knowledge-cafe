@@ -8,7 +8,7 @@ const Cart = () => {
             .then(data => setCart(data))
       }, []);
       return (
-            <div>
+            <div className='container mx-auto'>
                   <h1>blos in this cart {cart.length}</h1>
                   
             </div>
