@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Blog from '../../Blog/Blog';
 
-const Cart = () => {
+const Cart = ({ handleClick }) => {
       const [cart, setCart] = useState([])
       useEffect(() =>{
             fetch('../../../../public/blogs.json')
@@ -15,6 +15,7 @@ const Cart = () => {
                         cart.map(blog => <Blog 
                               key={blog.id} 
                               blog = {blog}
+                              handleClick={handleClick}
                         />)
                   }
                   
