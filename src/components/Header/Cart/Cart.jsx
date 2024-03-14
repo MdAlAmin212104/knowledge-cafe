@@ -10,7 +10,6 @@ const Cart = ({ handleClick, handleMarkAsTime }) => {
       }, []);
       return (
             <div className='md:w-2/3'>
-                  <h1>blos in this cart {cart.length}</h1>
                   {
                         cart.map(blog => <Blog 
                               key={blog.id} 

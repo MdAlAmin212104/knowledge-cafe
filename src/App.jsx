@@ -14,15 +14,21 @@ function App() {
     setBookmarks(newBookmarks);
   }
 
-  const handleMarkAsTime = (time) =>{
+  const handleMarkAsTime = (id, time) =>{
     setReadingTime(readingTime + time);
+
+    // remove bookmarks from bookmarks list
+    // console.log("bookmarks removed", id);
+    const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
+    setBookmarks(remainingBookmarks);
+
   }
 
   return (
     <>
       
       <Header/>
-      <div className='container mx-auto md:flex'>
+      <div className='container mx-auto md:flex gap-8'>
         <Cart handleClick ={handleClick} handleMarkAsTime ={handleMarkAsTime}/>
         <Bookmarks 
           bookmarks = {bookmarks} readingTime ={readingTime}/>
