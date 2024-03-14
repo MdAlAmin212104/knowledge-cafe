@@ -12,7 +12,10 @@ const Cart = () => {
             <div className='md:w-2/3'>
                   <h1>blos in this cart {cart.length}</h1>
                   {
-                        cart.map(blog => <Blog blog = {blog}/>)
+                        cart.map(blog => <Blog 
+                              key={blog.id} 
+                              blog = {blog}
+                        />)
                   }
                   
             </div>

@@ -1,5 +1,6 @@
 [
       {
+            "id": "1",
             "cover": "https://i.ibb.co/7SCywzQ/online-blog.jpg",
             "title": "The Enigmatic Journey",
             "author_img": "https://www.shutterstock.com/image-photo/confident-intelligence-grey-hair-senior-260nw-261010109.jpg",
@@ -9,6 +10,7 @@
             "hashtags": ["adventure", "mystery", "journey"]
       },
       {
+            "id": "2",
             "cover": "https://i.ibb.co/7SCywzQ/online-blog.jpg",
             "title": "Echoes of Eternity",
             "author_img": "https://images.pexels.com/photos/3772623/pexels-photo-3772623.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
@@ -18,6 +20,7 @@
             "hashtags": ["fantasy", "magic", "time-travel"]
       },
       {
+            "id": "3",
             "cover": "https://i.ibb.co/7SCywzQ/online-blog.jpg",
             "title": "Whispers in the Wind",
             "author_img": "https://t4.ftcdn.net/jpg/02/32/16/11/360_F_232161181_HP9vaSVs2tk2G3o1jfVH5QG7BceWnlyu.jpg",
@@ -27,6 +30,7 @@
             "hashtags": ["romance", "mystery", "suspense"]
       },
       {
+            "id": "4",
             "cover": "https://i.ibb.co/7SCywzQ/online-blog.jpg",
             "title": "Beyond the Horizon",
             "author_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhUAQoNk37fDaSIfLYZBmAA22byRtO8y6-Ag&usqp=CAU",
@@ -36,6 +40,7 @@
             "hashtags": ["sci-fi", "exploration", "future"]
       },
       {
+            "id": "5",
             "cover": "https://i.ibb.co/7SCywzQ/online-blog.jpg",
             "title": "Echoes of Silence",
             "author_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-su8VQXJ9nW_a72fw_Pmd391-nbeyORWBiQ&usqp=CAU",
