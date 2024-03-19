@@ -4,7 +4,7 @@ import Blog from '../../Blog/Blog';
 const Cart = ({ handleClick, handleMarkAsTime }) => {
       const [cart, setCart] = useState([])
       useEffect(() =>{
-            fetch('../../../../public/blogs.json')
+            fetch('blogs.json')
             .then(res => res.json())
             .then(data => setCart(data))
       }, []);
